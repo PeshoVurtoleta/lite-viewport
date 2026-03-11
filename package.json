@@ -1,0 +1,44 @@
+{
+  "name": "lite-viewport",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "version": "1.0.0",
+  "description": "Zero-dependency canvas scaling and resize manager with DPR handling, ResizeObserver, and cumulative-scaling fix.",
+  "type": "module",
+  "main": "Viewport.js",
+  "types": "Viewport.d.ts",
+  "exports": {
+    ".": {
+      "types": "./Viewport.d.ts",
+      "import": "./Viewport.js",
+      "default": "./Viewport.js"
+    }
+  },
+  "files": [
+    "Viewport.js",
+    "Viewport.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "canvas",
+    "viewport",
+    "resize",
+    "dpr",
+    "devicePixelRatio",
+    "retina",
+    "hidpi",
+    "scale",
+    "ResizeObserver",
+    "lightweight"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
