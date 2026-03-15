@@ -1,7 +1,7 @@
 {
   "name": "lite-viewport",
   "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency canvas scaling and resize manager with DPR handling, ResizeObserver, and cumulative-scaling fix.",
   "type": "module",
   "main": "Viewport.js",
@@ -35,6 +35,15 @@
     "lightweight"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/PeshoVurtoleta/lite-viewport#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeshoVurtoleta/lite-viewport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeshoVurtoleta/lite-viewport/issues",
+    "email": "shinikchiev@yahoo.com"
+  },
   "devDependencies": {
     "vitest": "^1.0.0"
   },
